@@ -61,6 +61,9 @@ public class TodoAdapter {
         if (todoDto.getPriority() != null){
             todo.setPriority(todoDto.getPriority());
         }
+        if (todoDto.getDueDate() != null){
+            todo.setDueDate(todoDto.getDueDate());
+        }
 
         return todo;
     }
